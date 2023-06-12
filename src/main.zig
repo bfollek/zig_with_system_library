@@ -14,3 +14,5 @@ pub fn main() !void {
 fn say_hello(input: [*c]u8) void {
     std.debug.print("Hello, {s}!\n", .{input});
 }
+
+test "empty test" {}
