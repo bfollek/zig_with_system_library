@@ -13,8 +13,8 @@ For those goals, this works with zig version 0.11.0-dev. But I've just started l
 The plumbing details are in `build.zig`. Look for
 
 ```zig
- exe.addIncludePath("Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include");
-    exe.linkSystemLibrary("edit");
+exe.addIncludePath("Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include");
+exe.linkSystemLibrary("edit");
 ```
 
 ### Helpful Links
