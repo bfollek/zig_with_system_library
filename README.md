@@ -8,7 +8,7 @@ Don't take my actual code in `main.zig` seriously. This is just a plumbing proje
 * Can I get it to build?
 * When I `zig build run` it, does it seem to be working?
 
-For those goals, this works with zig version 0.11.0-dev. But I've just started looking into Zig/C intergration, and I'm probably doing all sorts of things wrong.
+For these goals, it works with zig version 0.11.0-dev. But I've just started looking into Zig/C intergration, and I'm probably doing all sorts of things wrong.
 
 The plumbing details are in `build.zig`. Look for
 
@@ -19,6 +19,6 @@ exe.linkSystemLibrary("edit");
 
 ### Helpful Links
 
-* [How to use `readline` in a C program on OS X.](https://buildyourownlisp.com/chapter4_interactive_prompt#read_evaluate_print)
-* [How to find the include path on OS X.](https://andreasfertig.blog/2021/02/clang-and-gcc-on-macos-catalina-finding-the-include-paths/)
+* [How to use `editline` in a C program on OS X.](https://buildyourownlisp.com/chapter4_interactive_prompt#read_evaluate_print) and search for `Using Editline`.
+* [How to find the include path on OS X.](https://andreasfertig.blog/2021/02/clang-and-gcc-on-macos-catalina-finding-the-include-paths/) and search for `xcrun`.
 * [Zig build explained.](https://zig.news/xq/zig-build-explained-part-2-1850) - Out of date, but still good for background.
